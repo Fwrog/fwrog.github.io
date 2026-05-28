@@ -36,7 +36,7 @@ Then open `http://127.0.0.1:4000`.
 
 ## Deployment
 
-This repository is configured for GitHub Pages deployment through GitHub Actions. For the site to publish at `https://fwrog.github.io/`, the GitHub repository must be named `Fwrog.github.io` and Pages must use GitHub Actions as its publishing source.
+This repository is configured for GitHub Pages deployment through GitHub Actions. For the site to publish at `https://fwrog.github.io/`, the GitHub repository must be named `fwrog.github.io` and Pages must use GitHub Actions as its publishing source.
 
 ## Update Checklist
 
