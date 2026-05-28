@@ -2,6 +2,8 @@
 
 This repository hosts the source code for Yikai WU's academic homepage. The site is built with Jekyll and adapted from the AcadHomepage template for a compact research profile covering urban informatics, smart transport, remote sensing, computer vision, and AI for science.
 
+Published site target: `https://fwrog.github.io/`
+
 ## Main Content
 
 - Profile and contact information: `_config.yml`
@@ -31,6 +33,10 @@ bundle exec jekyll serve
 ```
 
 Then open `http://127.0.0.1:4000`.
+
+## Deployment
+
+This repository is configured for GitHub Pages deployment through GitHub Actions. For the site to publish at `https://fwrog.github.io/`, the GitHub repository must be named `Fwrog.github.io` and Pages must use GitHub Actions as its publishing source.
 
 ## Update Checklist
 
