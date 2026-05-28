@@ -55,6 +55,9 @@
         display: flex;
         width: 100%;
         order: 2;
+        > div {
+            position: relative;
+        }
         img {
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
@@ -106,4 +109,43 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+.research-focus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .55rem;
+    margin: 1rem 0 1.4rem 0;
+}
+
+.focus-pill {
+    border: 1px solid #d6dee8;
+    border-left: 4px solid #2f6f9f;
+    border-radius: 6px;
+    color: #1f2d3d;
+    background: #f7f9fb;
+    font-size: .88em;
+    line-height: 1.2;
+    padding: .45rem .7rem;
+}
+
+.project-box {
+    align-items: flex-start;
+
+    .paper-box-image img {
+        border-radius: 6px;
+        box-shadow: 0 10px 24px rgba(31, 45, 61, .18);
+    }
+
+    .paper-box-text h2 {
+        margin-top: 0;
+        margin-bottom: .35em;
+        font-size: 1.05em;
+    }
+
+    .meta-line {
+        color: #5b6673;
+        font-size: .9em;
+        margin: 0 0 .8em 0;
+    }
 }
